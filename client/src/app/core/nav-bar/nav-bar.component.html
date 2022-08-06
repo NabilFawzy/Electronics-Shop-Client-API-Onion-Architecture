@@ -1,0 +1,25 @@
+<div class="d-flex flex-column flex-md-row align-items-center justify-content-between p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-bold">Electronics Shop </h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" routerLink="/">Home</a>
+    <a class="p-2 text-dark"  *ngIf="isLogIn" routerLink="/home">Products</a>
+
+  </nav>
+
+  <div class="d-flex align-items-center" >
+
+
+    <div class="mr-6">
+      <ng-container  *ngIf="isLogIn">
+        <a href="#">Welcome {{username}} </a>
+      </ng-container>
+    </div>
+
+    <ng-container>
+        <a class="btn btn-outline-secondary mr-3"  routerLink="/login"  *ngIf="!isLogIn" >Sign In for Administrator</a>
+        <a class="btn btn-outline-secondary mr-3"    *ngIf="isLogIn" (click)="logoutNow()" >logout</a>
+    </ng-container>
+
+
+  </div>
+</div>

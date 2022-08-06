@@ -1,0 +1,45 @@
+
+<div class="cntainer">
+  <div class="row">
+    <section class="col-3">
+      <h5 class="text-warning ml-3">Types</h5>
+      <ul class="list-group">
+        <li class="list-group-item"
+        *ngFor="let productType of productTypes"
+        [class.active]="productType.id===this.typeIdSelected"
+        [value]="productType.id"
+        (click)="onTypeSelected(productType.id)"
+        >
+        {{productType.name}}</li>
+
+      </ul>
+    </section>
+    <section class="col-9">
+
+
+
+      <div class="row">
+        <div class="col-4 mb-4" *ngFor="let product of products">
+          <app-product-item [product]="product"></app-product-item>
+        </div>
+
+
+      </div>
+     <div class="d-flex justify-content-center">
+      <pagination
+      [boundaryLinks]="true"
+     [totalItems]="this.totalCount!"
+     previousText="&lsaquo;"
+    nextText="&rsaquo;"
+    firstText="&laquo;"
+     lastText="&raquo;"
+     (pageChanged)="onPageChange($event)"
+     [itemsPerPage]="pageSize"
+     >
+  </pagination>
+     </div>
+
+
+    </section>
+  </div>
+</div>

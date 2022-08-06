@@ -1,0 +1,146 @@
+[
+  {
+    "Name": "TV samsung 1",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 200,
+    "PictureUrl": "images/products/tv1.png",
+    "ProductTypeId": 1,
+    "Discount": 0
+  },
+  {
+    "Name": "TV samsung 2",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 150,
+    "PictureUrl": "images/products/tv2.png",
+    "ProductTypeId": 1,
+    "Discount": 0
+  },
+  {
+    "Name": "TV samsung 3",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 180,
+    "PictureUrl": "images/products/tv3.png",
+    "ProductTypeId": 1,
+    "Discount": 0
+  },
+  {
+    "Name": "TV LG 1",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 300,
+    "PictureUrl": "images/products/tv4.png",
+    "ProductTypeId": 1,
+    "Discount": 0
+  },
+  {
+    "Name": "TV LG 2",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 250,
+    "PictureUrl": "images/products/tv5.png",
+    "ProductTypeId": 1,
+    "Discount": 0
+  },
+  {
+    "Name": "TV LG 3",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 120,
+    "PictureUrl": "images/products/tv6.png",
+    "ProductTypeId": 1,
+    "Discount": 0
+  },
+  {
+    "Name": "Laptop DELL 1",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 10,
+    "PictureUrl": "images/products/laptop1.png",
+    "ProductTypeId": 2,
+    "Discount": 0
+  },
+  {
+    "Name": "Laptop DELL 2",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 8,
+    "PictureUrl": "images/products/laptop2.png",
+    "ProductTypeId": 2,
+    "Discount": 0
+  },
+  {
+    "Name": "Laptop DELL 3",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 15,
+    "PictureUrl": "images/products/laptop3.png",
+    "ProductTypeId": 2,
+    "Discount": 0
+  },
+  {
+    "Name": "Laptop DELL 4",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 18,
+    "PictureUrl": "images/products/laptop4.png",
+    "ProductTypeId": 2,
+    "Discount": 0
+  },
+  {
+    "Name": "Laptop DELL 5",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 15,
+    "PictureUrl": "images/products/laptop5.png",
+    "ProductTypeId": 2,
+    "Discount": 0
+  },
+  {
+    "Name": "Laptop DELL 6",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+    "Price": 16,
+    "PictureUrl": "images/products/laptop6.png",
+    "ProductTypeId": 2,
+    "Discount": 0
+  },
+  {
+    "Name": "Sound System 1",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 14,
+    "PictureUrl": "images/products/soundsystem1.png",
+    "ProductTypeId": 3,
+    "Discount": 0
+  },
+  {
+    "Name": "Sound System 2",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 250,
+    "PictureUrl": "images/products/soundsystem2.png",
+    "ProductTypeId": 3,
+    "Discount": 0
+  },
+  {
+    "Name": "Sound System 3",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 189.99,
+    "PictureUrl": "images/products/soundsystem3.png",
+    "ProductTypeId": 3,
+    "Discount": 0
+  },
+  {
+    "Name": "Sound System 4",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 199.99,
+    "PictureUrl": "images/products/soundsystem4.png",
+    "ProductTypeId": 3,
+    "Discount": 0
+  },
+  {
+    "Name": "Sound System 5",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 150,
+    "PictureUrl": "images/products/soundsystem5.png",
+    "ProductTypeId": 3,
+    "Discount": 0
+  },
+  {
+    "Name": "Sound System 6",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 180,
+    "PictureUrl": "images/products/soundsystem6.png",
+    "ProductTypeId": 3,
+    "Discount": 0
+  }
+]
