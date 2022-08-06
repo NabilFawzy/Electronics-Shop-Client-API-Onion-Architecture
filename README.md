@@ -9,8 +9,8 @@
 ### 1) to migrate to db 
 #### Run the below commands 
 
-dotnet ef migrations add InitMigrate -p OnionArch.Repository -s API -o Data/Migrations
-dotnet ef database update -p OnionArch.Repository -s API
+###### dotnet ef migrations add InitMigrate -p OnionArch.Repository -s API -o Data/Migrations
+###### dotnet ef database update -p OnionArch.Repository -s API
 
 #### 2) Update in appsettings.json   (ApiUrl)
 
